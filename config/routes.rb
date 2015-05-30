@@ -4,8 +4,8 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
-  get "/*path" => redirect("/?goto=%{path}")
-  root to: 'application#index'
+  get '/*path' => redirect('/?goto=%{path}')
+  root 'application#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
