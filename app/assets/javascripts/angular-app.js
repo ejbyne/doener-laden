@@ -1,2 +1,7 @@
-angular.module('doenerLadenApp', [
+var doenerLadenApp = angular.module('doenerLadenApp', [
+  'templates',
+  'ngRoute',
+  'appRoutes',
+  'menuItemsController'
 ]);
+
