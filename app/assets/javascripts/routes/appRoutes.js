@@ -23,7 +23,7 @@ angular.module('appRoutes', ['templates', 'ngRoute'])
   })
 
   .otherwise({
-    redirectTo:'/'
+    redirectTo: '/'
   });
 
   $locationProvider.html5Mode(true);
